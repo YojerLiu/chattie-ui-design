@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   @override
   void initState() {
-    tabController = TabController(length: 3, vsync: this);
+    tabController = TabController(length: 2, vsync: this);
 
     tabController.addListener(() {
       onTabChange();
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           icon: Icon(Icons.menu),
         ),
         title: Text(
-          'Chattie',
+          'Jemma',
           style: MyTheme.kAppTitle,
         ),
         actions: [
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 children: [
                   ChatPage(),
                   Center(child: Text('Status')),
-                  Center(child: Text('Call')),
+                  //Center(child: Text('Call')),
                 ],
               ),
             ),

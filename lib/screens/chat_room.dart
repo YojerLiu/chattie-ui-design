@@ -38,7 +38,7 @@ class _ChatRoomState extends State<ChatRoom> {
                 ),
                 Text(
                   'online',
-                  style: MyTheme.bodyText1.copyWith(fontSize: 18),
+                  style: MyTheme.bodyText2.copyWith(fontSize: 18),
                 ),
               ],
             ),

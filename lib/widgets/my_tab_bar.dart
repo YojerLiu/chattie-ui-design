@@ -42,7 +42,7 @@ class MyTabBar extends StatelessWidget {
               ),
             ),
           ),
-          Tab(
+          /*Tab(
             icon: Text(
               'Call',
               style: TextStyle(
@@ -50,7 +50,7 @@ class MyTabBar extends StatelessWidget {
                 fontWeight: FontWeight.w600,
               ),
             ),
-          ),
+          ),*/
         ],
       ),
     );
